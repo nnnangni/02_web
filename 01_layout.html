@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>영화추천사이트</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="movie.css">
+
+    <style>
+    body{
+        margin: 0px;
+    }
+    .bg{
+        position: relative;
+        background-image:url('assets/astronomy.jpg');
+        margin: 0px;
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size : 100% 100%;
+    }
+
+    .bg .content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size: 5rem;
+     font-family: 'Song Myung', serif;
+     color: white;
+     z-index: 1;
+     text-align: center;
+     }
+     
+    </style>
+</head>
+<body>
+  <a name="top"></a>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand text-dark" style="font-family:Nanum Myeongjo" href="#">영화추천시스템</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active text-body" style="font-family:Nanum Myeongjo" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link disabled text-secondary" style="font-family:Nanum Myeongjo" href="#" tabindex="-1" aria-disabled="true">친구 평점 보러가기</a>
+        <a class="nav-item nav-link disabled text-secondary" style="font-family:Nanum Myeongjo" href="#" tabindex="-1" aria-disabled="true">Log In</a>
+      </div>
+    </div>
+  </nav>
+  
+  <header>
+      <div class="bg">
+        <div class="content">
+          <h2>당신에게 어울리는 영화를
+          <br>
+          추천해드립니다.</h2>
+        </div>
+      </div>
+  </header>  
+
+
+  <footer class="navbar fixed-bottom navbar-expand-lg navbar-dark justify-content-between px-3rem" style="height:50px; background-color:#0A1B2A">
+    <a class="navbar-brand" style="font-family:Nanum Myeongjo" href="#">@nnnangni</a>
+    <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
+  </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
